@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+}
